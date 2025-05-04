@@ -37,6 +37,7 @@ ehr-lung-disease-prediction/
 │   └── best_multiclass_xgb_pipeline.joblib
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
@@ -77,6 +78,7 @@ Saved pipelines live in models/.
 ---
 
 ## 6.Requirements
+```
 pandas
 numpy
 scikit-learn
@@ -84,6 +86,7 @@ xgboost
 matplotlib
 jupyter
 joblib
+```
 
 ---
 

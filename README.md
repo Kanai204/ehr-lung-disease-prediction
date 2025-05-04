@@ -48,13 +48,15 @@ ehr-lung-disease-prediction/
    git clone https://github.com/<your‑username>/ehr-lung-disease-prediction.git
    cd ehr-lung-disease-prediction
 2. **Create an environment & install dependencies**
+```
 python3 -m venv venv
 source venv/bin/activate       # Linux/Mac
 .\venv\Scripts\activate        # Windows
 pip install -r requirements.txt
+```
 3. **Install dependencies**
 Install dependencies
-4. **Place the Synthea CSVs in** data/ **as shown above**
+4. **Place the Synthea CSVs in** `data/` **as shown above**
 
 ---
 
@@ -73,7 +75,7 @@ Binary lung‑disease prediction
 Multiclass disease‑type (none/pneumonia/asthma/COPD)
 – Best model: XGBoost (CV accuracy ≈ 0.827, macro F1 ≈ 0.368).
 
-Saved pipelines live in models/.
+Saved pipelines live in `models/`.
 
 ---
 

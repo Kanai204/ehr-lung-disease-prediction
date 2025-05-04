@@ -26,14 +26,14 @@ This project extracts a patient cohort from Synthea‑generated synthetic EHRs a
 ## 2. Repository Structure
 ehr-lung-disease-prediction/
 ├── data/
-│ ├── synthea_patient_pop1_patients.csv
-│ ├── synthea_patient_pop1_conditions.csv
-│ ├── synthea_patient_pop1_encounters.csv
-│ └── synthea_patient_pop1_observations.csv
+│   ├── patients.csv
+│   ├── conditions.csv
+│   ├── encounters.csv
+│   └── observations.csv
 ├── notebook.ipynb
 ├── models/
-│ ├── best_binary_xgb_pipeline.joblib
-│ └── best_multiclass_xgb_pipeline.joblib
+│   ├── best_binary_xgb_pipeline.joblib
+│   └── best_multiclass_xgb_pipeline.joblib
 ├── requirements.txt
 └── README.md
 

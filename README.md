@@ -57,7 +57,7 @@ This project extracts a patient cohort from Synthea‑generated synthetic EHRs a
 3. **Install dependencies**
    Install dependencies
 4. **Data**
-   Download the Synthea CSV files from the Harvard Dataverse:
+Download the Synthea CSV files from the Harvard Dataverse:
 
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BWDKXS
 

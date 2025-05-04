@@ -45,7 +45,7 @@ ehr-lung-disease-prediction/
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/<your‑username>/ehr-lung-disease-prediction.git
+   git clone https://github.com/Kanai204/ehr-lung-disease-prediction.git
    cd ehr-lung-disease-prediction
 2. **Create an environment & install dependencies**
 ```

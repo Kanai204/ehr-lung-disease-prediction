@@ -24,6 +24,7 @@ This project extracts a patient cohort from Synthea‑generated synthetic EHRs a
 ---
 
 ## 2. Repository Structure
+```
 ehr-lung-disease-prediction/
 ├── data/
 │   ├── patients.csv

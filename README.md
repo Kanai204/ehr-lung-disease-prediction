@@ -1,4 +1,4 @@
-# ehr-lung-disease-prediction
+# EHR Lung Disease Prediction
 
 ## 1. Overview
 This project extracts a patient cohort from Synthea‑generated synthetic EHRs and builds ML models to predict lung disease. It covers:

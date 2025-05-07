@@ -25,16 +25,12 @@ This project extracts a patient cohort from Synthea‑generated synthetic EHRs a
 
 ## 2. Repository Structure
    ```
-   ehr-lung-disease-prediction/
-   ├── data/
-   │   ├── patients.csv
-   │   ├── conditions.csv
-   │   ├── encounters.csv
-   │   └── observations.csv
-   ├── notebook.ipynb
+   final-year-project-acity/
+   ├── cohort_enriched.csv
+   ├── EHR Lung Disease Prediction.ipynb
    ├── models/
-   │   ├── best_binary_xgb_pipeline.joblib
-   │   └── best_multiclass_xgb_pipeline.joblib
+   │   ├── best_binary_xgb_pipeline.pkl
+   │   └── best_multiclass_xgb_pipeline.pkl
    ├── requirements.txt
    └── README.md
    ```
@@ -45,8 +41,8 @@ This project extracts a patient cohort from Synthea‑generated synthetic EHRs a
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/Kanai204/ehr-lung-disease-prediction.git
-   cd ehr-lung-disease-prediction
+   git clone https://github.com/Kanai204/final-year-project-acity.git
+   cd final-year-project-acity
 2. **Create an environment & install dependencies**
    ```
    python3 -m venv venv
@@ -69,7 +65,7 @@ Place the four files mentioned in **Structure** into the `data/` folder
 ## 4. Running the Analysis
 1. **Launch Jupyter:**
    ```bash
-    jupyter notebook notebook.ipynb
+    jupyter notebook <notebook>.ipynb
 2. Run each cell in order, or click Kernel ▶ Restart & Run All.
 
 ---
@@ -81,7 +77,7 @@ Binary lung‑disease prediction
 Multiclass disease‑type (none/pneumonia/asthma/COPD)
 – Best model: XGBoost (CV accuracy ≈ 0.827, macro F1 ≈ 0.368).
 
-Saved pipelines live in `models/`.
+Saved pipelines in `models/`.
 
 ---
 
@@ -93,7 +89,7 @@ scikit-learn
 xgboost
 matplotlib
 jupyter
-joblib
+pickle
 ```
 
 ---
